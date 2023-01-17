@@ -202,7 +202,7 @@ class OptionsMenu extends MusicBeatState
 
 				case 12:
 					FlxG.save.data.botplay = !FlxG.save.data.botplay;
-					updateGroupControlsFlxG.save.data.botplay; ? LanguageManager.getTextString('option_enable_botplay') : LanguageManager.getTextString('option_disable_botplay'), 12, 'Vertical');
+					updateGroupControls(FlxG.save.data.botplay; ? LanguageManager.getTextString('option_enable_botplay') : LanguageManager.getTextString('option_disable_botplay'), 12, 'Vertical');
 			}
 		}
 	}
